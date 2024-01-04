@@ -1,0 +1,9 @@
+[build]
+  publish="dist"
+  command="yarn prod"
+
+[[redirects]]
+  from = "https://stimulus-skeleton.netlify.app/*"
+  to = "https://stimulus-skeleton.stimulus-components.com/:splat"
+  status = 301
+  force = true
