@@ -16,6 +16,9 @@
   "license": "MIT",
   "homepage": "https://github.com/stimulus-components/stimulus-skeleton",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/stimulus-skeleton.umd.js",
   "module": "dist/stimulus-skeleton.mjs",
   "types": "dist/types/index.d.ts",
