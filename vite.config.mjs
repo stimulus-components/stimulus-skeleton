@@ -7,6 +7,9 @@ export default defineConfig(({ mode }) => {
   }
 
   return {
+    esbuild: {
+      minifyIdentifiers: false,
+    },
     build: {
       lib: {
         entry: resolve(__dirname, "src/index.ts"),
