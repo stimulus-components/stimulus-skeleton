@@ -1,9 +1,9 @@
-import { resolve } from "path";
-import { defineConfig } from "vite";
+import { resolve } from "path"
+import { defineConfig } from "vite"
 
 export default defineConfig(({ mode }) => {
   if (mode === "netlify") {
-    return {};
+    return {}
   }
 
   return {
@@ -25,5 +25,5 @@ export default defineConfig(({ mode }) => {
         },
       },
     },
-  };
-});
+  }
+})
